@@ -22,6 +22,7 @@ body {
   min-height: 100dvh;
   line-height: 1.6;
   font-family: var(--font-body, sans-serif);
+  font-weight: 400;
   font-size: var(--text-base);
   color: var(--color-text);
   background-color: var(--color-bg);
@@ -60,9 +61,18 @@ a {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
+  font-family: var(--font-display, Georgia, serif);
+  font-weight: 400;
   text-wrap: balance;
   line-height: 1.04;
+}
+
+strong,
+b {
+  font-weight: 400;
 }
 
 p,
